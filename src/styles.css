@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.background-color{
+  /* background-color: #e2dacd; */
+  background-color:#800000;
+  /* color:#623D2A; */
+  color:#ffffff
+}
+
+
