@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Modal, Ripple, initTE } from 'tw-elements';
 
 @Component({
   selector: 'app-history',
@@ -10,4 +11,7 @@ import { CommonModule } from '@angular/common';
 })
 export class HistoryComponent {
 
+  ngOnInit() {
+    initTE({ Modal, Ripple })
+  }
 }
