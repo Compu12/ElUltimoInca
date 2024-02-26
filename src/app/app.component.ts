@@ -9,6 +9,7 @@ import { HistoryComponent } from './components/history/history.component';
 import { GaleryComponent } from './components/galery/galery.component';
 import { TestimoniesComponent } from './components/testimonies/testimonies.component';
 import { ProcessComponent } from './components/process/process.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @Component({
@@ -23,7 +24,8 @@ import { ProcessComponent } from './components/process/process.component';
     HistoryComponent,
     GaleryComponent,
     TestimoniesComponent,
-  ProcessComponent],
+    ProcessComponent,
+    FooterComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

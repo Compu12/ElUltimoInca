@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Stepper, initTE } from 'tw-elements';
+
 
 @Component({
   selector: 'app-process',
@@ -10,4 +12,7 @@ import { CommonModule } from '@angular/common';
 })
 export class ProcessComponent {
 
+  ngOnInit(){
+    initTE({ Stepper });
+  }
 }
