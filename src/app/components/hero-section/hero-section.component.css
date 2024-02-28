@@ -6,3 +6,16 @@
   background-position-y: -400px;
   color:#ffffff;
 }
+
+@media screen and (max-width: 767px) {
+  .bg-image{
+    background-position-y:80px;
+
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+ .bg-image{
+  background-position-y:50px
+ }
+}
