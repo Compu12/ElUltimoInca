@@ -9,13 +9,14 @@
 
 @media screen and (max-width: 767px) {
   .bg-image{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../../../assets/images/imagenportada.jpg);
     background-position-y:80px;
-
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
  .bg-image{
+  background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../../../assets/images/imagenportada.jpg);
   background-position-y:50px
  }
 }
